@@ -74,9 +74,7 @@ const Slider = () => {
                                 <img src={dData.img} alt={dData.title}/>
                             </div>
                             <span>{dData.date}</span>
-                            <div className={classes.title__holder}>
-                                <h2>{dData.title}</h2>
-                            </div>
+                            <h2 className={classes.title_h2}>{dData.title}</h2>
                             <p>{dData.text}</p>
                         </div>
                     )
